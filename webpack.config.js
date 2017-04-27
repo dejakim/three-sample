@@ -1,7 +1,8 @@
 
 module.exports = {
   entry: {
-    dock: './src/dock/index.js'
+    dock: './src/dock/index.js',
+    water: './src/water/index.js'
   },
   output: {
     path: __dirname + '/public',
